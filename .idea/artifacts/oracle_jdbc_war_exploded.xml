@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="oracle_jdbc:war exploded">
+    <output-path>$PROJECT_DIR$/oracle_jdbc/target/oracle_jdbc</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="oracle_jdbc" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/oracle_jdbc/target/oracle_jdbc/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="oracle_jdbc/web/Web" />
+    </root>
+  </artifact>
+</component>
